@@ -1,0 +1,89 @@
+form {
+    border: 4px solid #123C69;/*The login form will gain properties according to the code with in this particular block*/
+	background-color:40e0d0;
+}
+input[type = text]  { /*Only input type text is selected and designed*/
+
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;/*The username block will have a straight lined boredr*/
+    border: 2px solid #112D32;
+    box-sizing: border-box;/*Adds property to the elements width and height*/
+ }
+ input[type = password] {/*Only input type password is selected and designed*/
+ 
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid #112D32;
+    box-sizing: border-box;
+ }
+
+button {
+    background-color: #112D32;
+    color: #88BDBC;
+    padding: 14px 20px;
+    margin: 1opx;
+    border: none;
+    cursor: pointer;/*the mouse will turn in to a pinter when clicking the buttons within the website*/
+    width: 100%;
+}
+body {
+  font-family: verdana;
+  color: #112D32; 
+  background: #88BDBC; 
+}
+h1,h2{
+
+  font-family:bold,underline;
+  font-family:verdana;
+  color: #112D32;
+  font-size:10mm;
+}
+p{
+  font-size:6mm;
+  font-weight:bold;
+  color: #112D32;
+}
+
+ul {
+  list-style-type: none; 
+  text-align: center;
+  font-family: verdana;
+  padding: 100px; 
+}
+
+li{
+  font-family: verdana;
+  border-left: 5px solid #254E58;
+  display: inline;
+  padding: 15px; 
+}
+
+a{
+  text-decoration: none; /*Removes the line normally given under the links*/
+  color: #4F4AF1;
+  font-weight: bold;
+  font-size: 10mm;
+}
+/*When the mouse hovers over the links it highlights them them another shade of blue this will attract the users attention,*/
+a:hover{
+  color: #112D32;
+}
+table,th,td {
+  border:5px solid black;
+  border-collapse:collapse;/*Prevents two lines within the table, the code will merge the lines which makes it a sigle lined table*/
+  font-size:10mm; 
+  width:auto; 
+  height:auto;
+  background-color: #112D32;
+  color: #88BDBC;
+  margin-left:auto;/*centers the table and text*/
+  margin-right:auto; 
+}
+
+
+
+
